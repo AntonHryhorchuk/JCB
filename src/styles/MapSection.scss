@@ -1,0 +1,65 @@
+.map{
+    &__wrapper{
+    position: relative;
+    max-width: 100vw;
+    height: 90vh;
+    overflow: hidden;}
+    &__contacts{
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        width: 100%;
+        max-width: 570px;
+        max-height: 500px;
+        padding: 60px 40px;
+        background-color: $main-yellow-color;
+        opacity: .85;
+        &-list{
+           
+            list-style: none;
+        }
+        &-item{
+            display: flex;
+            align-items: center;
+            
+            flex-direction: row;
+        }
+        &-item:not(:first-child){
+            padding-left: 20px;
+        }
+        &-item:not(:last-child){
+            margin-bottom: 50px;
+        }
+    }
+}
+.map-circle{
+    position: unset;
+    background-color: $main-gray-color;
+}
+.map__contacts-item:first-child .map__contacts-icon{
+    margin-right: 40px;
+}
+.map__contacts-item:not(:first-child) .map__contacts-icon{
+    width: 108px;
+}
+.map__contacts-item:first-child .map__contacts-description{
+    position: relative;
+    font-family: $main-font;
+    font-size: $H29;
+    font-weight: $font-bold;
+    &::before{
+        content: "";
+        display: block;
+        width: 200px;
+        border-bottom: 3px solid $main-gray-color;
+        position: absolute;
+        top: 49px;
+        left: 0;
+
+    }
+}
+.map__contacts-item .map__contacts-description{
+    font-family: $main-font;
+    font-size: $H18;
+    font-weight: $font-normal;
+}

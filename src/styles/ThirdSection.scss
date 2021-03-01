@@ -1,0 +1,49 @@
+.info-wrapper-button-third{
+    width: 100%;
+    max-width: 880px;
+    display: flex;
+      align-items: flex-end;
+      text-align: end;
+      justify-content: flex-end;
+      flex-direction: row;
+    margin-bottom: 70px;
+     
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: $main-yellow-color;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: $main-gray-color;
+}
+.text-end {
+  width: 100%;
+  max-width: 100%;
+}
+.button-gallery {
+  width: 100%;
+  max-width: 224px;
+  height: 60px;
+  background-color: $main-yellow-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $main-gray-color;
+  font-family: $main-font;
+  font-size: $H18;
+  text-transform: uppercase;
+  font-weight: $font-bold;
+   border: none;
+      outline: none;
+  &:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+  }
+}
+.text-end .ant-carousel .slick-list {
+  margin-bottom: 30px;
+}

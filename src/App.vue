@@ -5,6 +5,7 @@
     <second-section />
     <quick-stats />
     <third-section />
+    <map-section />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import FirstSection from "./components/FirstSection";
 import SecondSection from './components/SecondSection';
 import QuickStats from "./components/QuickStats";
 import ThirdSection from './components/ThirdSection';
+import MapSection from "./components/MapSection";
 
 export default {
   components: {
@@ -22,6 +24,7 @@ export default {
     SecondSection,
     QuickStats,
     ThirdSection,
+    MapSection
   },
 };
 </script>

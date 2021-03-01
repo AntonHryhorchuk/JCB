@@ -1,6 +1,6 @@
 <template>
   <div class="info">
-      <div class="info-wrapper-top">
+      <div class="info-wrapper-top" data-aos="fade-right" data-aos-duration="2500">
       <div class="circle circle-top"><icon-tools /></div>
       <div class="text-start">
         <h3 class="text-header">Services from professionals</h3>
@@ -16,7 +16,7 @@
         </p>
       </div>
     </div>
-    <div class="info-wrapper-bottom">
+    <div class="info-wrapper-bottom" data-aos="fade-left" data-aos-duration="5500">
       <div class="circle circle-bottom"><icon-drawing /></div>
       <div class="text-end">
         <h3 class="text-header">Effective solutions</h3>
