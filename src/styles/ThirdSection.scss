@@ -9,6 +9,14 @@
     margin-bottom: 70px;
      
 }
+.info-wrapper-button{
+  width: 100%;
+  max-width: 880px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+ 
+}
 .ant-carousel .slick-slide {
   text-align: center;
   height: 160px;
@@ -20,9 +28,9 @@
 .ant-carousel .slick-slide h3 {
   color: $main-gray-color;
 }
-.text-end {
+.gallery-end {
   width: 100%;
-  max-width: 100%;
+  max-width: 880px;
 }
 .button-gallery {
   width: 100%;

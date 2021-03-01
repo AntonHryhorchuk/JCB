@@ -6,7 +6,9 @@ import Antd from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import VueScrollTo from "vue-scrollto";
 
+Vue.use(VueScrollTo);
 AOS.init();
 Vue.config.productionTip = false;
 Vue.use(Antd);
@@ -15,5 +17,6 @@ new Vue({
   store,
   Antd,
   AOS,
+  VueScrollTo,
   render: h => h(App)
 }).$mount("#app");

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <a-back-top />
     <nav-bar />
     <first-section />
     <second-section />

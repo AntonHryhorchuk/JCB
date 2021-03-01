@@ -1,5 +1,5 @@
 <template>
-  <div class="info">
+  <div id="third" class="info">
     <div class="info-wrapper-top" data-aos="fade-right" data-aos-duration="2500">
       <div class="circle circle-top"><engineer-icon /></div>
       <div class="text-start">
@@ -20,7 +20,7 @@
     </div>
     <div class="info-wrapper-bottom info-wrapper-bottom-third">
       <div class="circle circle-bottom"><gallery-icon /></div>
-      <div class="text-end">
+      <div class="text-end gallery-end" data-aos="fade-left">
         <h3 class="text-header">Gallery</h3>
         <a-carousel
           class="gallery-slider"

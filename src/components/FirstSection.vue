@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div id="home" class="wrapper">
     <a-carousel
       dot-position="right"
       effect="fade"

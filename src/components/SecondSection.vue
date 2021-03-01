@@ -1,5 +1,5 @@
 <template>
-  <div class="info">
+  <div id="service" class="info">
       <div class="info-wrapper-top" data-aos="fade-right" data-aos-duration="2500">
       <div class="circle circle-top"><icon-tools /></div>
       <div class="text-start">

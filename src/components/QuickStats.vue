@@ -1,5 +1,5 @@
 <template>
-  <div class="stats-wrapper" >
+  <div class="stats-wrapper" data-aos="zoom-out">
     <div class="stats-container">
       <ul class="stats__list">
         <li class="stats__list-item">
