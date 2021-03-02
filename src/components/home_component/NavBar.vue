@@ -3,10 +3,10 @@
     <div class="nav" :class="{change_color: scrollPosition > 50}">
       <div class="nav__logo">
         <div class="nav__logo--top">
-        <img class="nav__logo--top-img" src="../assets/logo.gif" alt="" srcset="">
+        <img class="nav__logo--top-img" src="../../assets/logo.gif" alt="" srcset="">
         </div>
         <div class="nav__logo--bottom">
-        <img class="nav__logo--bottom-img" src="../assets/jcb-logo.png" alt="" srcset="">
+        <img class="nav__logo--bottom-img" src="../../assets/jcb-logo.png" alt="" srcset="">
         </div>
       </div>
       <ul class="nav__list">
@@ -51,7 +51,7 @@ mounted() {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/NavBar.scss";
+@import "../../styles/NavBar.scss";
 .change_color {
       opacity: .7;
       transition: all .7s ease;

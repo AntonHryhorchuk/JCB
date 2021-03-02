@@ -31,7 +31,7 @@
         </li>
         <li class="map__contacts-item">
           <div class="map__contacts-icon"><icon-mail /></div>
-          <div class="map__contacts-description">service@compressors.ua</div>
+          <div class="map__contacts-description" href="mailto:service@compressors.ua">service@compressors.ua</div>
         </li>
       </ul>
     </div>
@@ -53,5 +53,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../styles/MapSection.scss";
+@import "../../styles/MapSection.scss";
 </style>

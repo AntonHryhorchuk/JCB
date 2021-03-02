@@ -1,11 +1,14 @@
 <template>
   <div id="third" class="info">
-    <div class="info-wrapper-top" data-aos="fade-right" data-aos-duration="2500">
+    <div
+      class="info-wrapper-top"
+      data-aos="fade-right"
+      data-aos-duration="2500"
+    >
       <div class="circle circle-top"><engineer-icon /></div>
       <div class="text-start">
         <h3 class="text-header">About Us</h3>
         <p class="text-p">
-          
           Compressors International is the official dealer of JCB generators on
           the territory of Ukraine. We offer a full range of services - from
           choosing a generator to warranty and post-warranty service. Our
@@ -14,13 +17,12 @@
           qualified specialists will help you choose a diesel generator
           according to your requirements, carry out the commissioning of the
           generator, as well as perform service at a professional level.
-          
         </p>
       </div>
     </div>
-    <div class="info-wrapper-bottom info-wrapper-bottom-third">
+    <div class="info-wrapper-bottom info-wrapper-bottom-third" data-aos="fade-left">
       <div class="circle circle-bottom"><gallery-icon /></div>
-      <div class="text-end gallery-end" data-aos="fade-left">
+      <div class="text-end gallery-end" >
         <h3 class="text-header">Gallery</h3>
         <a-carousel
           class="gallery-slider"
@@ -48,11 +50,10 @@ export default {
   components: {
     EngineerIcon,
     GalleryIcon,
-    
   },
 };
 </script>
 
 <style lang="scss" scope>
-@import "../styles/ThirdSection.scss";
+@import "../../styles/ThirdSection.scss";
 </style>

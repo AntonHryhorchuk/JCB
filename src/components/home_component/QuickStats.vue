@@ -32,5 +32,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/QuickStats.scss";
+@import "../../styles/QuickStats.scss";
+
 </style>

@@ -34,8 +34,8 @@
   </div>
 </template>
 <script>
-import IconTools from "../components/IconTools";
-import IconDrawing from "../components/IconDrawing";
+import IconTools from "../home_component/IconTools";
+import IconDrawing from "../home_component/IconDrawing";
 export default {
     components:{
         IconTools,
@@ -44,5 +44,5 @@ export default {
 }
 </script>
 <style lang="scss" scope>
-@import "../styles/SecondSection.scss";
+@import "../../styles/SecondSection.scss";
 </style>

@@ -58,3 +58,7 @@
     }
   }
 }
+.nav__lang .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+  background: $main-yellow-color;
+    border-color: $main-yellow-color;
+}

@@ -9,7 +9,7 @@
       <div class="wrapper__image">
         <img
           class="wrapper__image-img"
-          src="../assets/jcb-slider1.jpg"
+          src="../../assets/jcb-slider1.jpg"
           alt=""
           srcset=""
         />
@@ -23,7 +23,7 @@
         </div>
         <img
           class="wrapper__image-img"
-          src="../assets/jcb-slider2.jpg"
+          src="../../assets/jcb-slider2.jpg"
           alt=""
           srcset=""
         />
@@ -35,7 +35,7 @@
         </div>
         <img
           class="wrapper__image-img"
-          src="../assets/jcb-slider3.jpg"
+          src="../../assets/jcb-slider3.jpg"
           alt=""
           srcset=""
         />
@@ -47,7 +47,7 @@
         </div>
         <img
           class="wrapper__image-img"
-          src="../assets/jcb-slider4.jpg"
+          src="../../assets/jcb-slider4.jpg"
           alt=""
           srcset=""
         />
@@ -61,5 +61,5 @@ export default {};
 </script>
 
 <style lang="scss">
-@import "../styles/FirstSection.scss";
+@import "../../styles/FirstSection.scss";
 </style>

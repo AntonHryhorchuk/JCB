@@ -64,3 +64,6 @@
     font-weight: $font-normal;
     color: $main-gray-color;
 }
+.map__contacts-item:last-child .map__contacts-description{
+    cursor: pointer;
+}
